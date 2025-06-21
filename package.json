@@ -1,0 +1,19 @@
+{
+  "name": "p2p-signaling-server-render",
+  "version": "1.0.0",
+  "description": "Signaling server for WebRTC P2P file transfer app",
+  "main": "signaling-server.js",
+  "scripts": {
+    "start": "node signaling-server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0",
+    "uuid": "^9.0.0"
+  }
+}
